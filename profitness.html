@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>slider</title>
+        <link rel="stylesheet" type="text/css" href="css/slider.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+        <!-- <link rel="stylesheet" type="text/css" href="css/demo.css" media="all" /> -->
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <!-- FlexSlider -->
+        <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+        <script type="text/javascript" charset="utf-8">
+        var $ = jQuery.noConflict();
+        $(window).load(function() {
+        $('.flexslider').flexslider({
+              animation: "fade"
+        });
+        
+        $(function() {
+            $('.show_menu').click(function(){
+                    $('.menu').fadeIn();
+                    $('.show_menu').fadeOut();
+                    $('.hide_menu').fadeIn();
+            });
+            $('.hide_menu').click(function(){
+                    $('.menu').fadeOut();
+                    $('.show_menu').fadeIn();
+                    $('.hide_menu').fadeOut();
+            });
+        });
+        });
+        </script>
+    </head>
+    <body style="background:goldenrod;">
+        
+        <div class="container">
+            <div class="inner">
+                  <div class="ins"><img src="images/logo.jpg" height="100%" width="15%">
+                    <a href="Home.html"><h3 style="color:white">Open</h3></a>
+                    <a href="profitness.html"><h3 style="color:white">Content</h3></a>
+                    <a href="about.html"><h3 style="color:white">About</h3></a>
+                </div>
+
+                <div class="slider_container">
+<header>
+                  <h1 style="color:gainsboro">TYPE OF EXERCISE</h1><br> 
+                </header>
+                <main>
+                    <section>
+                    <div class="flexslider">
+                      <ul class="slides">
+                        <li>
+                            <a href="http://www.freshdesignweb.com"><img src="images/slider/bench.jpg" alt="" title=""/></a>
+                            <div class="flex-caption">
+                                 <div class="caption_title_line"><h2 style="color:gainsboro">BENCH PRESS</h2><p>“Success usually comes to those who are too busy to be looking for it.”</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.freshdesignweb.com"><img src="images/slider/back.jpeg" alt="" title=""/></a>
+                            <div class="flex-caption">
+                                 <div class="caption_title_line"><h2 style="color:gainsboro">“LET PULL DOWN”</h2><p>“If you want something you’ve never had, you must be willing to do something you’ve never done.”</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.freshdesignweb.com"><img src="images/slider/shoulder.jpeg" alt="" title=""/></a>
+                            <div class="flex-caption">
+                                 <div class="caption_title_line"><h2 style="color:gainsboro">"SHOULDER PRESS"</h2><p>!!.....So.....shake......Your......Protein.......Not......Your.......h**ds..!!</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.freshdesignweb.com"><img src="images/slider/leg.jpeg" alt="" title=""/></a>
+                            <div class="flex-caption">
+                                 <div class="caption_title_line"><h2 style="color:gainsboro">“SQUAT”</h2><p>“Success usually comes to those who are too busy to be looking for it.”</p></div>
+                            </div>
+                        </li>
+                      </ul>
+                    </div>
+                    </section>
+                </main>
+                </div>
+            </div>
+        </div>
+        <DIv  class="ff">
+                    <h1 style="color:white">Instagram</h1>
+            
+                <button><a href="https://www.instagram.com/pro_fitness_unisex_gym_2021/">Click here</a></button>
+        </DIv>
+                    <br> 
+                    <br>
+ <footer>
+    NO &copyrigths
+ </footer>
+   
+</body>
+</html>
+
